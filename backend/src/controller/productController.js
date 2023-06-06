@@ -7,6 +7,7 @@ class Product {
 			product_description: req.body.product_description,
 			product_price: req.body.product_price,
 			product_detail: req.body.product_detail,
+			product_picture: req.body.product_picture,
 		});
 		res.status(200).send({ message: "Product was registered successfully!" });
 	}
